@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Education</title>
+    <link rel="stylesheet" href="domain2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+    <div class="header">
+        <button id="logout"><i class="fas fa-user-alt">logout</i></button>
+    </div>
+    <div class="addIdea">
+        <button onclick="add()" id="add">Add New Idea</button>
+        <button id="search" onclick="getDomainData()">search</button>
+        <input type="text" id="searchbar" placeholder="Enter any domain">
+    </div>
+    <section id="addProjects">
+        <button id="close"><i class="fa fa-close"></i></button><br>
+        <form class="addProj" action="/upload" method="post" enctype="multipart/form-data">
+            <label for="name">Enter Project Title</label>
+            <input type="text" name="name" id="names" required><br>
+            <label for="domain">Enter domain</label>
+            <input type="text" name="domain" id="domain" required><br>
+            <label for="ps" class="problemstatement">Enter Problem Statement:</label><br>
+            <textarea name="textarea" id="textarea" required></textarea><br>
+            <label for="files" >Upload Abstract:</label><br>
+            <input type="file" id="files" required><br>
+            <button type="submit" id="submit">SUBMIT</button>
+        </form>
+    </section>
+    <section id="editProjects">
+        <button id="closee"><i class="fa fa-close"></i></button><br>
+        <form class="editProj"  enctype="multipart/form-data">
+            <label for="namee">Enter Project Title</label>
+            <input type="text" name="name" id="namee" required><br>
+            <label for="name">Enter domain</label>
+            <input type="text" name="domain" id="domaine" required><br>
+            <label for="problemstatement" class="problemstatement">Enter Problem Statement:</label><br>
+            <textarea name="textarea" id="textareae" required></textarea><br>
+            <label for="upload" >Upload Abstract:</label><br>
+            <input type="file" id="filese" required><br>
+            <button type="submit" id="submit">Edit</button>
+        </form>
+    </section>
+    <section class="name">
+    </section>
+</div>
+
+    <script src="domain1.js"></script>
+</body>
+</html>
+
