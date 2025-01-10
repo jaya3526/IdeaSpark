@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    height: 70px;
+    width:100%;
+    background-color: rgb(121, 201, 244);
+}
+#logout{
+    margin: 15px;
+    background-color: darkgrey;
+   height: 50px;
+    width: 90px;
+    float: right;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#editProjects{
+    width: 30em;
+    height:350px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    font-size: larger;
+    border: 2px solid rgb(178, 217, 228);
+    border-radius: 5px;
+    margin-left:25%;
+    display: none;
+    z-index: 1;
+    overflow: hidden;
+}
+#closee{
+    float: right;
+    width: 40px;
+    height:40px;
+    cursor: pointer;
+    font-size: large;
+}
+#add{
+    margin: 20px;
+    padding: 5px;
+    font-size: medium;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(92, 73, 255);
+}
+#addProjects{
+    width: 30em;
+    height:350px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    font-size: larger;
+    border: 2px solid rgb(178, 217, 228);
+    border-radius: 5px;
+    margin-left:25%;
+    display: none;
+    z-index: 1;
+    overflow: hidden;
+}
+#textarea,#textareae{
+    height:60px;
+    width:43em;
+}
+#close{
+    float: right;
+    width: 40px;
+    height:40px;
+    cursor: pointer;
+    font-size: large;
+}
+form{
+    line-height: 40px;
+}
+#submit{
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgb(77, 77, 232);
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+}
+input{
+    font-size: 15px;
+}
+.name{
+    display: flex;
+    flex-flow: wrap;
+    max-width: fit-content;
+    overflow: hidden;
+    z-index: 0;
+}
+.users{
+    border: 2px solid black;
+    margin: 15px;
+    padding: 10px;
+    width:27em;
+    overflow: hidden;
+}
+img{
+    width:27em;
+    height:20em;
+    cursor: pointer;
+}
+#delete{
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgb(153, 153, 232);
+    border-radius: 5px;
+}
+#edit{
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgb(153, 153, 232);
+    border-radius: 5px;
+}
+
+#edit:hover{
+    background-color: blue;
+}
+
+#delete:hover{
+    background-color: blue;
+}
+#btn1{
+    background-color: white;
+}
+#search,#searchbar{
+    float: right;
+    margin: 10px;
+    padding: 5px;
+    font-size: medium;
+}
+#search{
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+}

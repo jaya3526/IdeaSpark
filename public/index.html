@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IdeaSpark</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="#about" id="openAbout">About</a></li>
+                <li><a herf="#contact" id="openContact">Contact</a></li>
+                <li><a href="#login" id="openLogin">Login</a></li>
+                <li><a href="#register" id="openRegister">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+      <button id="closeAbout"><i class="fa fa-close"></i></button><br>
+        <h1>About Us</h1>
+        <p>Welcome to Idea Spark, the ultimate platform for students to share, explore, and develop their ideas.</p>
+        <h1>Our Mission</h1>
+        <p>Our mission is to create an open, inclusive environment where students can freely present their ideas.
+             We aim to inspire creativity, encourage innovation, and support individual growth.</p>
+             <h1>Why Join Us?</h1>
+             <h4>Empower Your Voice:<span>Share your ideas with a community that values creativity and innovation.</span></h4>
+             <h4>Explore New Perspectives: <span>Discover and be inspired by the diverse ideas and viewpoints of other students.
+            </span></h4>
+            <h3>Thank you for visiting Idea Spark.
+                 Were excited to see what youll bring to our community. 
+                 Share your ideas, gain insights, and be part of a dynamic space where creativity knows no bounds.</h3>
+    </section>
+    <section id="contact">
+        <button id="closeContact"><i class="fa fa-close"></i></button><br>
+        <h1>For further details and queries please contact to below members:</h1>
+        <ul>
+            <li>K.Jaya Sree (21H51A05K0)</li>
+            <li>G.Krishna Prasanth(21H51A05J9)</li>
+            <li>G.Malini(21H51A05J8)</li>
+        </ul>
+    </section>
+    <section id="login">
+        <button id="closeLogin"><i class="fa fa-close"></i></button><br>
+        <form  class="loginUser">
+            <label for="email" class="email">Enter Email</label>
+            <input type="email" id="lemail" required><br>
+            <label for="loginPassword" class="password">Enter password</label>
+            <input type="text" class="text" id="lpassword" required><br>
+            <button type="submit" id="loginButton">Login</button>
+            <h3>Register Before Login</h3>
+        </form>
+    </section>
+    <section id="register">
+        <button id="closeRegister"><i class="fa fa-close"></i></button><br>
+        <form class="registerForm">
+            <label for="email" class="email">Enter Email</label>
+            <input type="email" id="remail" required><br>
+            <label for="registerPassword" class="password">Enter password</label>
+            <input type="text" class="text" id="rpassword" required><br>
+            <label for="conformPassword" class="password">Conform password</label>
+            <input type="text" class="text" id="rcpassword" required><br>
+            <button type="submit" id="registerButton">Register</button>
+            <h3>Login after register</h3>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
